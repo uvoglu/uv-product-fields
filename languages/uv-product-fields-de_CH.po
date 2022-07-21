@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Fields 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uv-product-fields\n"
+"POT-Creation-Date: 2022-07-21T16:50:43+00:00\n"
+"PO-Revision-Date: 2022-07-21 20:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: uv-product-fields\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Product Fields"
+msgstr "WooCommerce Product Fields"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://uvoglu.com"
+msgstr "https://uvoglu.com"
+
+#. Author of the plugin
+msgid "UVOGLU"
+msgstr "UVOGLU"
+
+#: admin/class-uv-product-fields-meta-fields.php:36
+msgid "Categories"
+msgstr "Kategorien"
+
+#: admin/class-uv-product-fields-meta-fields.php:42
+msgid "Type"
+msgstr "Art"
+
+#: admin/class-uv-product-fields-meta-fields.php:46
+msgid "Text"
+msgstr "Text"
+
+#: admin/class-uv-product-fields-meta-fields.php:50
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/class-uv-product-fields-meta-fields.php:55
+msgid "Minimum Length"
+msgstr "Minimale Länge"
+
+#: admin/class-uv-product-fields-meta-fields.php:60
+msgid "Maximum Length"
+msgstr "Maximale Länge"
+
+#: admin/class-uv-product-fields-meta-fields.php:65
+msgid "Price Difference"
+msgstr "Preis Anpassung"
+
+#: admin/class-uv-product-fields-meta-fields.php:76
+msgid "Product Field"
+msgstr "Produkt Feld"
+
+#: admin/class-uv-product-fields-meta-fields.php:177
+msgid "It seems that WooCommerce is not installed. WooCommerce is required for this plugin to work."
+msgstr "Es scheint, dass WooCommerce nicht installiert ist. WooCommerce wird für dieses Plugin benötigt."
+
+#: admin/class-uv-product-fields-post-type.php:25
+msgctxt "Post Type General Name"
+msgid "Product Fields"
+msgstr "Produkt Felder"
+
+#: admin/class-uv-product-fields-post-type.php:26
+msgctxt "Post Type Singular Name"
+msgid "Product Field"
+msgstr "Produkt Feld"
+
+#: admin/class-uv-product-fields-post-type.php:27
+msgctxt "Admin Menu text"
+msgid "Product Fields"
+msgstr "Produkt Felder"
+
+#: admin/class-uv-product-fields-post-type.php:28
+msgctxt "Add New on Toolbar"
+msgid "Product Fields"
+msgstr "Produkt Felder"
+
+#: admin/class-uv-product-fields-post-type.php:29
+msgid "Product Field Archives"
+msgstr "Produkt Felder Archiv"
+
+#: admin/class-uv-product-fields-post-type.php:30
+msgid "Product Field Attributes"
+msgstr "Produkt Felder Attribute"
+
+#: admin/class-uv-product-fields-post-type.php:31
+msgid "Parent Product Field:"
+msgstr "Übergeordnetes Produkt Feld:"
+
+#: admin/class-uv-product-fields-post-type.php:32
+msgid "All Product Fields"
+msgstr "Alle Produkt Felder"
+
+#: admin/class-uv-product-fields-post-type.php:33
+msgid "Add New Product Field"
+msgstr "Neues Produkt Feld hinzufügen"
+
+#: admin/class-uv-product-fields-post-type.php:34
+msgid "Add New"
+msgstr "Erstellen"
+
+#: admin/class-uv-product-fields-post-type.php:35
+msgid "New Product Field"
+msgstr "Neues Produkt Feld"
+
+#: admin/class-uv-product-fields-post-type.php:36
+msgid "Edit Product Field"
+msgstr "Produkt Feld Bearbeiten"
+
+#: admin/class-uv-product-fields-post-type.php:37
+msgid "Update Product Field"
+msgstr "Produkt Feld Aktualsieren"
+
+#: admin/class-uv-product-fields-post-type.php:38
+msgid "View Product Field"
+msgstr "Produkt Feld anzeigen"
+
+#: admin/class-uv-product-fields-post-type.php:39
+msgid "View Product Fields"
+msgstr "Produkt Felder Anzeigen"
+
+#: admin/class-uv-product-fields-post-type.php:40
+msgid "Search Product Fields"
+msgstr "Produkt Felder Suchen"
+
+#: admin/class-uv-product-fields-post-type.php:41
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: admin/class-uv-product-fields-post-type.php:42
+msgid "Not found in Trash"
+msgstr "Nicht gefunden im Papierkorb"
+
+#: admin/class-uv-product-fields-post-type.php:43
+msgid "Featured Image"
+msgstr "Produkt Feld Bild"
+
+#: admin/class-uv-product-fields-post-type.php:44
+msgid "Set featured image"
+msgstr "Als Produkt Feld Bild setzen"
+
+#: admin/class-uv-product-fields-post-type.php:45
+msgid "Remove featured image"
+msgstr "Produkt Feld Bild entfernen"
+
+#: admin/class-uv-product-fields-post-type.php:46
+msgid "Use as featured image"
+msgstr "Als Produkt Feld Bild verwenden"
+
+#: admin/class-uv-product-fields-post-type.php:47
+msgid "Insert into Product Field"
+msgstr "In Produkt Feld einfügen"
+
+#: admin/class-uv-product-fields-post-type.php:48
+msgid "Uploaded to this Product Field"
+msgstr "Zu diesen Produkt Feld hochladen"
+
+#: admin/class-uv-product-fields-post-type.php:49
+msgid "Product Fields list"
+msgstr "Produkt Felder Liste"
+
+#: admin/class-uv-product-fields-post-type.php:50
+msgid "Product Fields list navigation"
+msgstr "Produkt Felder Liste Navigation"
+
+#: admin/class-uv-product-fields-post-type.php:51
+msgid "Filter Product Fields list"
+msgstr "Produkt Felder Liste filtern"
+
+#: admin/class-uv-product-fields-post-type.php:54
+msgid "Product Fields"
+msgstr "Produkt Felder"
+
+#: admin/class-uv-product-fields-post-type.php:55
+msgid "Register Custom Product Fields"
+msgstr "Benutzerdefinierte Produkt Felder Registrieren"
+
+#. Description of the plugin
+msgid "Add custom fields to WooCommerce product pages, which allow to customize an order. Pricing can be modified if the field is set."
+msgstr "Füge benutzerdefinierte Produkt Felder zu WooCommerce Produkten hinzu, welche es erlauben, eine Bestellung anzupassen. Preise können modifiziert werden, wenn das Feld gesetzt ist."

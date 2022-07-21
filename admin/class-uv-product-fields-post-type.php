@@ -63,7 +63,7 @@ class Uv_Product_Fields_Post_Type {
 			'public' => false,
 			'show_ui' => true,
 			'show_in_menu' => true,
-			'menu_position' => 80,
+			'menu_position' => 56,
 			'show_in_admin_bar' => true,
 			'show_in_nav_menus' => true,
 			'can_export' => true,
@@ -72,7 +72,7 @@ class Uv_Product_Fields_Post_Type {
 			'exclude_from_search' => false,
 			'show_in_rest' => false,
 			'publicly_queryable' => false,
-			'capability_type' => 'post',
+			'capability_type' => 'shop_order',
 			'rewrite' => false,
 		);
 		register_post_type( 'uv_product_fields', $args );

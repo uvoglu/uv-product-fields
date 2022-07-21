@@ -16,7 +16,7 @@
  * Plugin Name:       WooCommerce Product Fields
  * Plugin URI:        https://uvoglu.com
  * Description:       Add custom fields to WooCommerce product pages, which allow to customize an order. Pricing can be modified if the field is set.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            UVOGLU
  * Author URI:        https://uvoglu.com
  * License:           GPL-2.0+
