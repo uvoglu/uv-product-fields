@@ -25,6 +25,9 @@ The price can optionally be changed by a fixed value, in case the custom field i
 
 == Changelog ==
 
+= 1.0.2 =
+* Disable Stripe Express Checkout Button (Apple Pay, Google Pay) on product page, as custom fields would not be applied.
+
 = 1.0.1 =
 * Minor fixes and improvements.
 

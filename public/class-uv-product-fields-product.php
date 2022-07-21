@@ -14,6 +14,7 @@ class Uv_Product_Fields_Product {
 
 	public function load() {
 		add_action( 'woocommerce_before_add_to_cart_button', array( $this, 'uv_add_product_fields' ), 10 );
+		add_filter( 'wc_stripe_hide_payment_request_on_product_page', array( $this, 'uv_hide_express_checkout' ), 10, 2 );
 	}
 
 	public function uv_add_product_fields() {
@@ -23,6 +24,21 @@ class Uv_Product_Fields_Product {
 		$fields = $this->get_fields_for_categories( $category_ids );
 
 		$this->render_product_fields( $fields );
+	}
+
+	public function uv_hide_express_checkout( $initial_value, $post ) {
+		$categories = get_the_terms( $post->ID, 'product_cat' );
+
+		if ( ! is_iterable( $categories ) ) {
+			return $initial_value;
+		}
+
+		$category_ids = array();
+		foreach ( $categories as $category ) {
+			$category_ids[] = $category->term_id;
+		}
+
+		return ! empty( $this->get_fields_for_categories( $category_ids ) );
 	}
 
 	private function get_fields_for_categories( $category_ids ) {
