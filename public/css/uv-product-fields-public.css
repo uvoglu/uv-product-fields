@@ -1,0 +1,19 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.uv-product-field-description {
+	opacity: .5;
+	font-weight: normal;
+}
+
+.uv-product-field-description th {
+	font-weight: normal;
+	padding-top: 0;
+	padding-bottom: 1.5em;
+}
+
+.uv-product-fields-price-difference {
+	font-weight: normal;
+}
