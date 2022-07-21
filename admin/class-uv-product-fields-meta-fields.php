@@ -197,12 +197,13 @@ class Uv_Product_Fields_Meta_Fields {
 
 	private function generate_input_field( $meta_field, $meta_value ) {
 		return sprintf(
-			'<input %s id="%s" name="%s" type="%s" value="%s">',
+			'<input %s %s id="%s" name="%s" type="%s" value="%s">',
 			$meta_field['type'] !== 'color' ? 'style="width: 100%"' : '',
+			$meta_field['type'] === 'number' ? 'step="any"' : '',
 			$meta_field['id'],
 			$meta_field['id'],
 			$meta_field['type'],
-			$meta_value
+			$meta_value,
 		);
 	}
 

@@ -16,7 +16,7 @@
  * Plugin Name:       WooCommerce Product Fields
  * Plugin URI:        https://uvoglu.com
  * Description:       Add custom fields to WooCommerce product pages, which allow to customize an order. Pricing can be modified if the field is set.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            UVOGLU
  * Author URI:        https://uvoglu.com
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'UV_PRODUCT_FIELDS_VERSION', '1.0.2' );
+define( 'UV_PRODUCT_FIELDS_VERSION', '1.0.3' );
 
 /**
  * The code that runs during plugin activation.
