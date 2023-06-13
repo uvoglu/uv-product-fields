@@ -20,7 +20,7 @@ class Uv_Product_Fields_Product {
 	public function uv_add_product_fields() {
 		global $product;
 
-		$category_ids = $product->category_ids;
+		$category_ids = $product->get_category_ids();
 		$fields = $this->get_fields_for_categories( $category_ids );
 
 		$this->render_product_fields( $fields );
