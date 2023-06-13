@@ -3,7 +3,7 @@ Contributors: uvoglu
 Tags: woocommerce
 Requires at least: 6.0.0
 Tested up to: 6.0.1
-Stable tag: 1.0.1
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ The price can optionally be changed by a fixed value, in case the custom field i
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix warning with category ID retrieval.
 
 = 1.0.3 =
 * Allow decimal values for price difference.
